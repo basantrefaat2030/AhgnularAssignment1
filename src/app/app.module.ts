@@ -3,10 +3,14 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeadercomponentComponent } from './headercomponent/headercomponent.component';
+import { FootercomponentComponent } from './footercomponent/footercomponent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeadercomponentComponent,
+    FootercomponentComponent
   ],
   imports: [
     BrowserModule,
